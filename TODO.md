@@ -1,0 +1,27 @@
+- [x] Create src directory
+- [x] Move server.ts to src/server.ts
+- [x] Rename and move mongo db connection.ts to src/MongoDBConnection.ts
+- [x] Create src/routes/ and move auth routes.ts to src/routes/auth.routes.ts
+- [x] Move task.routes.ts to src/routes/task.routes.ts
+- [x] Create src/models/ and move user model .ts to src/models/User.ts
+- [x] Move task models.ts to src/models/Task.ts
+- [x] Move middle ware.ts to src/middleware.ts
+- [x] Update imports in src/server.ts
+- [x] Update imports in src/routes/auth.routes.ts
+- [x] Update imports in src/routes/task.routes.ts
+- [x] Update package.json script to "dev": "nodemon src/server.ts"
+- [x] Update tsconfig.json rootDir to "src"
+- [x] Remove duplicate files (autho routes.ts, etc.)
+- [x] Test server startup
+- [x] Rename src/MongoDBConnection.ts to src/config/db.ts
+- [x] Update import in src/app.ts to './config/db'
+- [x] Update import in src/server.ts to './config/db'
+- [x] Refactor src/routes/auth.routes.ts to use controllers
+- [x] Update src/server.ts to import app from './app' and remove duplicated setup
+- [x] Test server startup after refactoring
+- [x] Rename src/MongoDBConnection.ts to src/config/db.ts
+- [x] Update import in src/app.ts to './config/db'
+- [x] Update import in src/server.ts to './config/db'
+- [x] Refactor src/routes/auth.routes.ts to use controllers
+- [x] Update src/server.ts to import app from './app' and remove duplicated setup
+- [x] Test server startup after refactoring

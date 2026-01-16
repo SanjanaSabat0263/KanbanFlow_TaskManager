@@ -1,0 +1,7 @@
+- [x] Add try-catch error handling to /register route in auth.routes.ts
+- [x] Add try-catch error handling to /login route in auth.routes.ts
+- [x] Add try-catch error handling to GET / tasks in task.routes.ts
+- [x] Add try-catch error handling to POST / tasks in task.routes.ts
+- [x] Add try-catch error handling to PUT /:id tasks in task.routes.ts
+- [x] Add try-catch error handling to DELETE /:id tasks in task.routes.ts
+- [x] Test server startup after changes (successful, server running on port 5000)
